@@ -1,4 +1,4 @@
-Name: Ed Hawkins
+### Name: Ed Hawkins
 
 ## 9-12.CT.5: 
 Modify a function or procedure in a program to perform its computation in a different way over the same inputs, while preserving the result of the overall program.
@@ -6,4 +6,5 @@ Modify a function or procedure in a program to perform its computation in a diff
 ## 9-12.CT.6: 
 Demonstrate how at least two classic algorithms work, and analyze the trade-offs related to two or more algorithms for completing the same task.
 
-An activity that addresses these two standards is to have students code the binary search algorithm both iteratively and recursively. 
+## Activity:
+An activity that addresses these two standards is to have students code the binary search algorithm both iteratively and recursively. Students could then do a run time comparison (as we did in our summer class) and discuss the trade-offs between the two algorithms.
