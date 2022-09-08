@@ -7,4 +7,4 @@ Modify a function or procedure in a program to perform its computation in a diff
 Demonstrate how at least two classic algorithms work, and analyze the trade-offs related to two or more algorithms for completing the same task.
 
 ## Activity:
-An activity that addresses these two standards is to have students code the binary search algorithm both iteratively and recursively. Students could then do a run time comparison (as we did in our summer class) and discuss the trade-offs between the two algorithms.
+An activity that addresses these two standards is to have students code the linear search algorithm and then the binary search algorith. Students could then do a run time comparison (as we did in our summer class) and discuss the trade-offs between the two algorithms. An extension activity for advanced students would be to code the binary search algorithm recursively to compare with the iterative binary search algorithm.
