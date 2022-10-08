@@ -6,7 +6,7 @@ counter = 0
 #Computer picks Secret Number
 num = random.randint(1, 10)
 
-#Uncomment to show Secret Number while testing
+#Uncomment to show Secret Number while testing/comment out for game play
 print("Number = ",num)
 
 #Variable for exit condition (True when player wins)
@@ -20,6 +20,7 @@ while win == False:
 
 #Update Guess Counter
     counter += 1
+  
 #Check whether player guessed the Secret Number
     if guess == num:
         win = True
@@ -27,5 +28,6 @@ while win == False:
         print('Try again!')
         continue
 
+#Output results
 print('You win! The Secret Number is', num)
 print('Number of guesses =', counter)
