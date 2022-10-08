@@ -1,3 +1,6 @@
+#Number Guesser (Intermediate) 
+#By Fearsome Foursome - Wayne Tobias, Usman Ahmed, Kirk Martin, Ed Hawkins
+
 import random
 
 #Variable to track number of guesses
