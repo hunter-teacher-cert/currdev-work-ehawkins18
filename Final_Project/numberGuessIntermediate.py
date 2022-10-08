@@ -13,7 +13,7 @@ print('You selected 1 -', max)
 num = random.randint(1, max)
 
 #Uncomment to show Secret Number while testing/comment out to hide during game play
-print("Number = ",num)
+print("Secret Number = ",num)
 
 #Variable for exit condition (True when player wins)
 win = False
@@ -22,7 +22,7 @@ win = False
 while win == False:
     
 #Ask player to input a guess    
-    guess = int(input('Enter Number: '))
+    guess = int(input('Enter Your Guess: '))
 
 #Update Guess Counter
     counter += 1

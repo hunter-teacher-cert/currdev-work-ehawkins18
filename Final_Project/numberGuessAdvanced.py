@@ -3,10 +3,16 @@ import random
 #Variable to track number of guesses
 counter = 0
 
-#Computer picks Secret Number
-num = random.randint(1, 10)
+#Ask player to input range    
+max = int(input('Enter the highest number to guess from 1 - '))
 
-#Uncomment to show Secret Number while testing/comment out for game play
+#Print out selected range
+print('You selected 1 -', max)
+
+#Computer picks Secret Number
+num = random.randint(1, max)
+
+#Uncomment to show Secret Number while testing/comment out to hide during game play
 print("Secret Number = ",num)
 
 #Variable for exit condition (True when player wins)
@@ -20,11 +26,18 @@ while win == False:
 
 #Update Guess Counter
     counter += 1
-  
-#Check whether player guessed the Secret Number
+    
+#Check whether player guess is correct, too high, or too low
     if guess == num:
         win = True
+        
+    elif guess < num:
+        print(guess,'is too low.')
+        print('Try again!')
+        continue
+    
     else:
+        print(guess,'is too high.')
         print('Try again!')
         continue
 
