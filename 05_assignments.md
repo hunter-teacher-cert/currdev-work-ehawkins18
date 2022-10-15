@@ -19,5 +19,9 @@ This is the first formative assessment for the unit. Students will complete this
 
 ## 2. Rock, Paper, Scissors
 ### Description
-This is the second formative assessment for the unit. Students will complete this project after a series of lessons teaching them how to 
+This is the second formative assessment for the unit. Students will complete this project after a series of lessons teaching them:
+* Functions - Definition, parameters, arguments
+* Functions with 2 parameters
+* Compound conditional statements
+
 
